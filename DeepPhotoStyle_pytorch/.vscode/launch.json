@@ -1,0 +1,20 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "my_main.py",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/my_main.py",
+            "console": "integratedTerminal",
+            "args": ["-s", "Warnning.png", "-c", "Warnning.png", "-v", "BMW.png", "-pm", "-2", "--steps", "10000", "-lr", "0.3689", "-cw", "1000", 
+                "-sw", "1000000", "-at", "disp", "-aw", "1000000", "-tw", "0.0001", "-bs", "6", "-mw", "1000.0", "-dm", "monodepth2","-rw","10",
+                "--random-scene", "-lp","mono_car_Rob_disp_test", "--late-start","-bl","proposed", "-sl", "1"],
+            "env": {"CUDA_VISIBLE_DEVICES": "4"}
+        },
+        ]
+    
+        }
