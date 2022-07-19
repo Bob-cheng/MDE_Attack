@@ -1,5 +1,19 @@
-# Monocular Depth Estimation Attack
-This is the reference PyTorch implementation for "Physical Attack on Monocular Depth Estimation in Autonomous Driving with Optimal Adversarial Patches"
+# Physical Attack on Monocular Depth Estimation with Optimal Adversarial Patches
+This is the reference PyTorch implementation for "Physical Attack on Monocular Depth Estimation in Autonomous Driving with Optimal Adversarial Patches". This paper has been accepted by European Conference on Computer Vision (ECCV) 2022
+
+![overview](overview.png)
+
+## Citation
+```
+@article{cheng2022physical   
+    doi = {10.48550/ARXIV.2207.04718},      
+    url = {https://arxiv.org/abs/2207.04718},      
+    author = {Cheng, Zhiyuan and Liang, James and Choi, Hongjun and Tao, Guanhong and Cao, Zhiwen and Liu, Dongfang and Zhang, Xiangyu},      
+    title = {Physical Attack on Monocular Depth Estimation with Optimal Adversarial Patches},      
+    publisher = {European Conference on Computer Vision (ECCV)},      
+    year = {2022}
+}
+```
 
 ## Setup
 ### Dependencies
