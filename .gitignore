@@ -9,7 +9,7 @@ temp_*.png
 *.pth
 DeepPhotoStyle_pytorch/depth_networks/depth-hints/models/models.zip
 *.npy
-pseudo_lidar/figures/GeneratedAtks/Scene/*
+# pseudo_lidar/figures/GeneratedAtks/Scene/*
 pseudo_lidar/figures/GeneratedAtks/Adv_car/*
 pseudo_lidar/figures/GeneratedAtks/PointCloud/*
 train_log/*
